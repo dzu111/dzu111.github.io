@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ca6acbd5c4.js" crossorigin="anonymous"></script>
+    <title>Song Page</title>
+    <link rel="stylesheet" href="song.css">
+</head>
+<body>
+    <div class="song-container">
+        <img src="images/suzume.jpeg" alt="Song Cover" class="song-image">
+        <audio id="audio-player" src="audio/suzume.weba"></audio>
+        <button class="play-button" onclick="playSong()">Play</button>
+    </div>
+    <a href="real.html"><i class="fa-solid fa-angle-left"></i></a>
+    <script>
+        function playSong() {
+            const audio = document.getElementById('audio-player');
+            audio.play();
+        }
+    </script>
+</body>
+</html>

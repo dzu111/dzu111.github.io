@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #484262;
+    font-family: Arial, sans-serif;
+}
+.song-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #f1aa9b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.song-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.play-button {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+.play-button:active {
+    background-color: #003d82;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #312c51;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+a:hover {
+    background-color: burlywood;
+    transform: scale(1.05);
+}
