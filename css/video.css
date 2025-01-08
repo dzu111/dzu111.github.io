@@ -38,6 +38,10 @@ video{
     position: absolute;
     left: 10%;
 }
+.linkk{
+    color: blue;
+    cursor: pointer;
+}
 a {
     position: absolute;
     bottom: 15%;
