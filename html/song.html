@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ca6acbd5c4.js" crossorigin="anonymous"></script>
+    <title>Song</title>
+    <link rel="stylesheet" href="../css/song.css">
+</head>
+<body>
+    <div class="lagu">
+        <h1>SUZUME</h1>
+        <P> A 2022 Japanese animated coming-of-age fantasy adventure film written and directed by Makoto Shinkai.</P>
+        <img src="../images/real suzume.jpg" alt="Song Cover" class="album">
+        <audio id="audio-player" src="../audio/suzume.weba"></audio>
+        <button class="play-button" onclick="playSong()">Play</button>
+    </div>
+    <a href="../index.html"><i class="fa-solid fa-angle-left"></i></a>
+    <script>
+        function playSong() {
+            const audio = document.getElementById('audio-player');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
